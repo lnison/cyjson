@@ -49,7 +49,8 @@ Instead of converting to python object, we can collect some information and extr
     
 #install
     git clone https://github.com/mitghi/cyjson/
-    cd ./cyjson/cJSON ; make ; make install ; cd ..
+    cd ./cyjson; git clone https://github.com/kbranigan/cJSON/
+    cd ./cJSON ; make ; make install ; cd ..
     python setup.py build_ext --inplace
 
 #requirements
