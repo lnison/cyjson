@@ -2,7 +2,7 @@
 Fast and efficent JSON Parser for Python.
 
 This is a wrapper class written in Cython. 
-The Underlaying library is [cJSON](https://github.com/kbranigan/cJSON/) by [kbranigan](https://github.com/kbranigan) written in C.
+The Underlaying library is [cJSON](http://sourceforge.net/projects/cjson/) by Dave Gamble written in C.
 
 
     import cyj
