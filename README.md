@@ -1,5 +1,5 @@
 # cyjson
-Fast and efficent JSON Parser for Python.
+Fast and efficient JSON Parser for Python.
 
 This is a wrapper class written in Cython. 
 The Underlaying library is [cJSON](http://sourceforge.net/projects/cjson/) by Dave Gamble written in C.
@@ -27,12 +27,12 @@ The Underlaying library is [cJSON](http://sourceforge.net/projects/cjson/) by Da
     parser << "JSON" # will be converted -> .replace("\'","\"")
 
 ## converting to python object
-This is not efficent, because it converts the whole structure into python objects.
+This is not efficient, because it converts the whole structure into python objects.
 
     parser.get_root()
     
 ## retriving info
-Instead of converting to python object, we can collect some information and extract the target value directly from C layer which is faster and more efficent.
+Instead of converting to python object, we can collect some information and extract the target value directly from C layer which is faster and more efficient.
 
     >>> parser.root_info()
     {'keys': [u'ab', u'c', u's'], 'types': ['str', 'list', 'dict'], 'size': 3}
