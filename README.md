@@ -31,7 +31,7 @@ This is not efficient, because it converts the whole structure into python objec
 
     parser.get_root()
     
-## retriving info
+## retrieving info
 Instead of converting to python object, we can collect some information and extract the target value directly from C layer which is faster and more efficient.
 
     >>> parser.root_info()
